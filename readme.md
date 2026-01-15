@@ -1,5 +1,14 @@
-# Aider
+# Command Line Interfaces (CLIs)
+In this documentation, I will go over the configuration of Aider and Cline. Aider is a terminal-based AI coding assistant that works alongside your IDE, so it will work for both VSCode and for Intellij. Cline is a VSCode extension, so it will not be available for Intellij.
 
+## Table of Contents
+- [Aider](#aider)
+- [Cline](#cline)
+
+
+
+# Aider
+Aider is a terminal-based AI coding assistant that excels at autonomous, project-wide operations. It reads and edits multiple files simultaneously, making coordinated changes across your entire codebase. Every modification is automatically committed to Git with descriptive messages, creating a clean, reviewable history. Unlike Continue.dev, Aider can execute shell commands—installing dependencies, running tests, and managing your development workflow directly. Where Continue focuses on single-file assistance, Aider shines at large-scale refactoring, ensuring consistency and coordination across your entire project.
 
 ### Installation
 ```
@@ -37,4 +46,7 @@ Alternatively, you can also start the chat by running ```aider <filename1> <file
 
 <img width="1847" height="671" alt="E8A51743-64F7-41D0-B229-4378AE813EF5" src="https://github.com/user-attachments/assets/bf4b1ddc-3aee-4751-a977-04001e5024cb" />
 
+
+# Cline
+this is cline
 
