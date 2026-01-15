@@ -48,5 +48,7 @@ Alternatively, you can also start the chat by running ```aider <filename1> <file
 
 
 # Cline
-this is cline
+
+<img width="548" height="729" alt="72E9302B-7D9A-49E3-A3C6-8A4788AB9F14" src="https://github.com/user-attachments/assets/af4ba5ca-0b5a-46ed-b911-60b78c6b9f4b" />
+![6BBDD378-D017-4E62-979B-094C03D46E60_4_5005_c](https://github.com/user-attachments/assets/58795a91-cf91-4e88-854b-b5a7eda265c9)
 
