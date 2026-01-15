@@ -52,6 +52,7 @@ Alternatively, you can also start the chat by running ```aider <filename1> <file
 # Cline
 
 ### Installation
+
 Go to the extensions in VSCode and search for Cline. You will find this extension:
 
 <img width="1616" height="792" alt="A6F8F0E7-D527-41B8-BF87-AC931EA82D03" src="https://github.com/user-attachments/assets/7a593cc7-8736-444e-9565-0117285dca3d" />
@@ -59,10 +60,14 @@ Go to the extensions in VSCode and search for Cline. You will find this extensio
 Install it and the Cline icon will appear on your sidebar. Click on the icon and it will take you to the chat bar. On the top right of the chat click on the settings icon and it will take you to the configuration.
 
 ### Configuration
-The API Provider will have a drop down menu of providers. Choose OpenAI Compatible and set https://litellm.reingold.com as the base url. Your OpenAI Compatible API Key will be your LiteLLM API key. You can add any of the available model ids on LiteLLM as the Model ID in the configuration. 
+The API Provider will have a drop down menu of providers. Choose OpenAI Compatible and set https://litellm.reingold.com as the base url. Your OpenAI Compatible API Key will be your LiteLLM API key. You can add any of the available model ids on LiteLLM as the Model ID in the configuration. <br>
+Note: Cline uses complex prompts and works best with Claude models. Less capable models may not work as expected.
 <br>
+
 <img width="548" height="729" alt="72E9302B-7D9A-49E3-A3C6-8A4788AB9F14" src="https://github.com/user-attachments/assets/af4ba5ca-0b5a-46ed-b911-60b78c6b9f4b" />
 
-Cline has two modes: plan and act. 
+Cline has two modes: plan and act. Plan mode is slower because it thinks of a plan and performs edits after you confirm the plan. This is better for more complex tasks. Act mode is much faster and immediately performs edits on your files. This is better for small and simple tasks. However, the cool thing about Cline is that you can combine these two modes. If you look at the bottom of the screenshot above, you can see a button that says "Use different models for Plan and Act". Clicking on that would allow you to set up separate configurations for each mode, so you can  use a higher reasoning model to create a complex plan and another model to execute the steps in Act mode. <br>
+
+In Act mode, you can change your settings in the chat to auto approve so that the model can read and edit all files. This makes the agent fully autonomous in coding multiple files.
 
 
