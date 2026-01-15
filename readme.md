@@ -59,6 +59,9 @@ Go to the extensions in VSCode and search for Cline. You will find this extensio
 Install it and the Cline icon will appear on your sidebar. Click on the icon and it will take you to the chat bar. On the top right of the chat click on the settings icon and it will take you to the configuration.
 
 ### Configuration
-
+The API Provider will have a drop down menu of providers. Choose OpenAI Compatible and set https://litellm.reingold.com as the base url. Your OpenAI Compatible API Key will be your LiteLLM API key. You can add any of the available model ids on LiteLLM as the Model ID in the configuration. 
 <img width="548" height="729" alt="72E9302B-7D9A-49E3-A3C6-8A4788AB9F14" src="https://github.com/user-attachments/assets/af4ba5ca-0b5a-46ed-b911-60b78c6b9f4b" />
+
+Cline has two modes: plan and act. 
+
 
