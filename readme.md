@@ -66,7 +66,8 @@ Note: Cline uses complex prompts and works best with Claude models. Less capable
 
 <img width="548" height="729" alt="72E9302B-7D9A-49E3-A3C6-8A4788AB9F14" src="https://github.com/user-attachments/assets/af4ba5ca-0b5a-46ed-b911-60b78c6b9f4b" />
 
-Cline has two modes: plan and act. Plan mode is slower because it thinks of a plan and performs edits after you confirm the plan. This is better for more complex tasks. Act mode is much faster and immediately performs edits on your files. This is better for small and simple tasks. However, the cool thing about Cline is that you can combine these two modes. If you look at the bottom of the screenshot above, you can see a button that says "Use different models for Plan and Act". Clicking on that would allow you to set up separate configurations for each mode, so you can  use a higher reasoning model to create a complex plan and another model to execute the steps in Act mode. <br>
+Cline has two modes: plan and act. Plan mode is slower because it thinks of a plan and performs edits after you confirm the plan. This is better for more complex tasks. Act mode is much faster and immediately performs edits on your files. This is better for small and simple tasks. <br>
+However, the cool thing about Cline is that you can combine these two modes. If you look at the bottom of the screenshot above, you can see a button that says "Use different models for Plan and Act". Clicking on that would allow you to set up separate configurations for each mode, so you can  use a higher reasoning model to create a complex plan and another model to execute the steps in Act mode. <br>
 
 In Act mode, you can change your settings in the chat to auto approve so that the model can read and edit all files. This makes the agent fully autonomous in coding multiple files.
 
