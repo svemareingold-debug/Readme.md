@@ -1,7 +1,7 @@
 # Command Line Interfaces (CLIs)
 In this documentation, I will go over the configuration of Aider and Cline. Aider is a terminal-based AI coding assistant that works alongside your IDE, so it will work for both VSCode and for Intellij. Cline is a VSCode extension, so it will not be available for Intellij.
 
-<span style="color: red;">THESE ARE NOT MULTIMODEL TOOLS.</span> In order to change the model you are using, you will have to manually update the configuration
+THESE ARE NOT MULTIMODEL TOOLS. In order to change the model you are using, you will have to manually update the configuration
 
 ## Table of Contents
 - [Aider](#aider)
