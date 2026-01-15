@@ -70,5 +70,8 @@ Cline has two modes: plan and act. Plan mode is slower because it thinks of a pl
 However, the cool thing about Cline is that you can combine these two modes. If you look at the bottom of the screenshot above, you can see a button that says "Use different models for Plan and Act". Clicking on that would allow you to set up separate configurations for each mode, so you can  use a higher reasoning model to create a complex plan and another model to execute the steps in Act mode. <br>
 
 In Act mode, you can change your settings in the chat to auto approve so that the model can read and edit all files. This makes the agent fully autonomous in coding multiple files.
+<img width="382" height="488" alt="CF9E66CF-03F6-480D-89C3-CA2B075AB787" src="https://github.com/user-attachments/assets/338218c8-0ba5-4c89-9752-f83b8d36e911" />
 
+In the image below, Cline is coding two files (flappy_bird.py and styles.css) at the same time
+<img width="1620" height="1137" alt="02B594A1-26B5-45BB-8C0B-BDB9C593AD19" src="https://github.com/user-attachments/assets/f6012e94-212a-4687-a4d8-65471a5b86b7" />
 
