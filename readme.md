@@ -50,6 +50,7 @@ Alternatively, you can also start the chat by running ```aider <filename1> <file
 
 
 # Cline
+Cline is a VSCode extension that brings autonomous AI pair programming directly into your editor. Unlike chat-based assistants that only suggest code, Cline can read your files, write code, execute terminal commands, and make multi-file changes—all while you maintain control through approval gates.
 
 ### Installation
 
@@ -69,7 +70,7 @@ Note: Cline uses complex prompts and works best with Claude models. Less capable
 Cline has two modes: plan and act. Plan mode is slower because it thinks of a plan and performs edits after you confirm the plan. This is better for more complex tasks. Act mode is much faster and immediately performs edits on your files. This is better for small and simple tasks. <br>
 However, the cool thing about Cline is that you can combine these two modes. If you look at the bottom of the screenshot above, you can see a button that says "Use different models for Plan and Act". Clicking on that would allow you to set up separate configurations for each mode, so you can  use a higher reasoning model to create a complex plan and another model to execute the steps in Act mode. <br>
 
-In Act mode, you can change your settings in the chat to auto approve so that the model can read and edit all files. This makes the agent fully autonomous in coding multiple files. <br>
+In Act mode, you can change your settings in the chat to auto approve so that the model can read and edit all files. This makes the agent fully autonomous in coding multiple files. You can control how much you approve the edits before they are implemented<br>
 <img width="382" height="488" alt="CF9E66CF-03F6-480D-89C3-CA2B075AB787" src="https://github.com/user-attachments/assets/338218c8-0ba5-4c89-9752-f83b8d36e911" />
 
 In the image below, Cline is coding two files (flappy_bird.py and styles.css) at the same time <br>
