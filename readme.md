@@ -32,4 +32,9 @@ This CLI does not have a multimodel format, so to use different models you would
 
 To run, go to your project directory in the terminal and run ```aider``` 
 
+This will start a chat with aider with no files added. Aider needs files added to the chat in order to read and edit them. It will prompt you to add files in the chat and you just have to press Y. 
+Alternatively, you can also start the chat by running ```aider <filename1> <filename2> etc.``` to add whatever files you would like automatically. The chat will look like this:
+
+<img width="1847" height="671" alt="E8A51743-64F7-41D0-B229-4378AE813EF5" src="https://github.com/user-attachments/assets/bf4b1ddc-3aee-4751-a977-04001e5024cb" />
+
 
